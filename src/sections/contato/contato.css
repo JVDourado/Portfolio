@@ -1,0 +1,155 @@
+@import '../../index.css';
+
+#contato {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+}
+
+/* Style for the heading 'h2' */
+#contato h2 {
+  margin-left: 50%;
+  margin-bottom: 10%;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Style for the form */
+#contato form {
+  margin-top: 20px;
+}
+
+/* Style for the form labels */
+#contato form label {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #444;
+}
+
+/* Style for the input fields */
+#contato form input,
+#contato form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Style for the submit button */
+#contato form .btn {
+    margin-top: 5%;
+    transition: var(--transition);
+}
+
+#contato .coding {
+    margin-top: 10%;
+    margin-left: 20%;
+    width: 100%;
+}
+
+
+/* Style for the submit button icon */
+#contato form button svg {
+  margin-right: 8px;
+}
+
+/*TABLET MEDIA QUERIES*/
+@media screen and (max-width: 1024px) {
+    #contato form {
+        margin-top: 20px;
+        display: grid;
+    }
+
+    #contato form label {
+        display: grid;
+        grid-template-columns: 1fr;
+        font-size: 24px;
+    }
+
+    #contato form label h4 {
+        display: block;
+        margin-left: 5%;
+    }
+
+    #contato form label input {
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #contato form label textarea {
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #contato .g-recaptcha {
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+
+    #contato form .btn {
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+
+    #contato .coding {
+        margin-top: 30%;
+        margin-left: 10%;
+        width: 100%;
+    }
+}
+
+/*PHONE MEDIA QUERIES*/
+@media screen and (max-width: 600px) {
+
+    #contato {
+        grid-template-columns: 1fr;
+    }
+
+    #contato .coding {
+        display: none;
+    }
+
+    #contato form {
+        margin-top: 20px;
+    }
+
+    #contato form h2 {
+        margin-left: 40%;
+    }
+
+    #contato form label {
+        display: grid;
+        grid-template-columns: 1fr;
+        font-size: 24px;
+    }
+
+    #contato form label h4 {
+        display: block;
+        margin-left: 5%;
+    }
+
+    #contato form label input {
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #contato form label textarea {
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #contato .g-recaptcha {
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+
+    #contato form .btn {
+        margin-top: 10%;
+      }
+}
