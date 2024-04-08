@@ -26,7 +26,7 @@ const About = () => {
                         }
                     </div>
                     <p>Sou Bacharel em Sistemas de Informação de pela UNICAMP, onde adquiri uma sólida base em programação, design de bancos de dados e análise de sistemas. Ao longo do curso fui capaz de me aprimorar habilidades técnicas e a mentalidade necessária para contribuir com meu conhecimento para a área.</p>
-                    <p>Possuo por volta de 8 mêses de experiência no mercado de trabalho, onde tive a oportunidade de estagiar na área administrativa em um escritório de contabilidade (sendo responsável por tratar de leads e prospects e assistência aos usuários dos sistemas do escritório), e atualmente estagio numa empresa de geotecnologias, sendo responsável pelo desenvolvimento de aplicações tanto front-end como back-end.</p>
+                    <p>Possuo por volta de 14 mêses de experiência no mercado de trabalho, onde tive a oportunidade de estagiar na área administrativa em um escritório de contabilidade (sendo responsável por tratar de leads e prospects e assistência aos usuários dos sistemas do escritório), também atuei como estagiário numa empresa de geotecnologias, sendo responsável pelo desenvolvimento de aplicações web tanto front-end como back-end. E atualmente sou Desenvolvedor Web Junior, desenvolvendo e realizando manutenção de sites e aplicações tanto no front-end quanto no back-end</p>
                     <a href={CV} download={CV} className='btn primary'>Download CV<RiFileDownloadFill/></a>
                 </div>
             </div>
